@@ -86,6 +86,7 @@ resources:
       service: hana
       service-plan: hdi-shared
   - name: incident-management-auth
+  #jcdhuscd
     type: org.cloudfoundry.managed-service
     parameters:
       config:
