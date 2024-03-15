@@ -36,7 +36,7 @@
         "auth": {
           "kind": "mocked",
           "users": {
-            "incident.All@tester.sap.com": {
+            "incident-m": {
               "password": "initial",
               "roles": [
                 "support"
