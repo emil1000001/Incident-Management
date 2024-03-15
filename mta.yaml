@@ -129,6 +129,7 @@ resources:
     parameters:
       service: xsuaa
       service-plan: application
+      #test
       # path: ./xs-security.json
       config:
         xsappname: incident-management-${org}-${space}
