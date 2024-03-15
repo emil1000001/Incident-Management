@@ -39,17 +39,17 @@
             "incident.All@tester.sap.com": {
               "password": "initial",
               "roles": [
-                "System Landscape Viewer"
+                "support"
               ]
             },
             "alice": {
               "roles": [
-                "System Landscape Viewer"
+                "support"
               ]
             },
             "bob": {
               "roles": [
-                "System Landscape Viewer"
+                "support"
               ]
             }
           }

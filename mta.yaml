@@ -124,6 +124,15 @@ resources:
       service: html5-apps-repo
       service-name: incident-management-html5-app-host-service
       service-plan: app-host
+  - name: incident-management-auth
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      # path: ./xs-security.json
+      config:
+        xsappname: incident-management-${org}-${space}
+        tenant-mode: dedicated
 parameters:
   deploy_mode: html5-repo
   enable-parallel-deployments: true
@@ -133,4 +142,3 @@ build-parameters:
       commands:
         - npm ci
         - npx cds build --production
-

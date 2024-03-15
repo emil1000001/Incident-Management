@@ -10,4 +10,4 @@ extend projection ProcessorService.Customers with {
   firstName || ' ' || lastName as name: String
 }
 annotate ProcessorService.Incidents with @odata.draft.enabled;
-// annotate ProcessorService with @(requires: 'System Landscape Viewer');
+// annotate ProcessorService with @(requires: 'support');
